@@ -13,3 +13,6 @@ for i in range(n):
 
 if dp[n][W]:print('Yes')
 else:print('No')
+
+for i in dp:
+    print(i)
